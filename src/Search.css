@@ -1,0 +1,70 @@
+.searchPage {
+  flex: 0.8;
+  background-color: #fafafa;
+  padding: 20px 20px;
+}
+.searchPage_filter {
+  display: flex;
+  align-items: center;
+  color: #606060;
+  font-size: xx-small;
+}
+.searchPage_filter > h2 {
+  margin-left: 10px;
+}
+.searchPage > hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.videoCard_search {
+  margin-bottom: 40px;
+  display: flex;
+  flex: 0.8;
+  margin-right: 5px;
+}
+.videoCard_search .videoCard_thumb {
+  height: 260px;
+  width: 650px;
+}
+.videoCard_search .videoCard_info {
+  display: block;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+.videoCard_search .video_text {
+  display: flex;
+  padding-left: 0;
+  margin-left: 0;
+}
+.videoCard_search h4 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.videoCard_search .video_text > p {
+  font-size: 20px;
+  color: gray;
+}
+.videoCard_search .videoCard_avatar {
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+}
+.videoCard_search .channel{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.videoCard_search .channel p{
+  font-size: 20px;
+  color: #606060;
+  font-weight: 600;
+}
+.videoCard_search .desc{
+  margin-top:20px;
+  color: #606060;
+  
+}
